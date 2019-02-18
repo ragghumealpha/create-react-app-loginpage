@@ -1,0 +1,221 @@
+/* body{
+    background-image: url('../download.jpeg') ;
+  } */
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  .ant-message-notice-content
+  {
+    border: 1px solid red;
+    top:30px;
+  }
+  .recaptcha
+  {
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 61%;
+    margin-top: 20px;
+  
+  }
+  .password__show{
+  cursor: pointer;
+  position: absolute;
+  bottom: 11px;
+  height: 16px;
+  right: 0;
+  color: #233367;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  }
+  span.password__show
+  {
+    top: 14px;
+    right: 16px;
+  }
+  .backimg
+  {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* background-image: url('../download.jpeg') ; */
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  /* background-size: cover; */
+  }
+  .loadingimage
+{
+  color: blue;
+  margin-left: 20px;
+  /* background-image: url('../loaderimage.gif') */
+}
+  .loginbackgroundimg{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-image: url('../faceblockchain.jpg') ; */
+    background-color: #262831;
+    background-position: center;
+  }
+  .forgetpasswordhadding
+  {
+    color: rgb(35, 51, 103)!important;
+    font-weight: bold!important;
+    font-size: 15px!important;
+    width: fit-content!important;
+    cursor: pointer;
+  }
+  .singinsingupdiv p
+  {
+    color: #fff;
+    font-size:20px;
+  }
+  .MainInputDom
+  {
+   height:auto;
+   width:502px;
+   border: solid 1px #dfdfdf;
+   border-radius:5px;
+   background:#fff;
+   margin:0 auto;
+  }
+  .MainInputDom p
+  {
+   font-size:14px;
+   padding-left:20px;            
+   color:red;
+   
+  }
+  .formfeild
+  {
+  padding: 0px;
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+  } 
+  /* .inputfeild
+  {
+  font-size: 14px;
+  text-indent:42px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #33363b;
+  width: 100%; 
+  height: 45px;
+  
+  border: solid 1px #dfdfdf;
+  border-radius: 3px ;
+  }
+  .inputfeild:focus
+  {
+  outline: none !important;
+  border: solid 1px #48538b;
+  } */
+  .inputfield
+  {
+    font-size: 14px;
+    text-indent:42px;
+    color: #33363b;
+     width: 100%; 
+     height: 40px;
+     border: solid 1px #dfdfdf;
+     border-radius: 3px;
+  }
+  .inputfielderror
+  {
+    font-size: 14px;
+    text-indent:42px;
+    color: #33363b;
+     width: 100%; 
+     height: 40px;
+     border: solid 1px red;
+     border-radius: 3px;
+  }
+  .icons
+      {
+        position: absolute;
+        top: 11px;
+        left: 11px;
+      }
+  .loginbtn
+  {
+  text-align:center;
+  padding:20px;
+  }
+  .loginbtn button
+  {
+   width:50%;
+   background-color:#4cae4c;
+   outline:none;
+   height:40px;
+   border:none;
+   color:#fff;
+   font-size:18px;
+   border-radius:10px;
+  }
+  .backgroundiv{margin:auto; position:absolute; top:0px; 
+    left: 0; bottom: 0; right: 0;
+  }
+  @media (max-width: 667px){
+    .recaptcha
+    {
+width:100%!important;    
+    }
+ 
+    .rc-anchor-normal-footer
+    {
+      margin-left: -40px!important;
+    }
+.backgroundiv{top:0% !important;}
+    .registerbtn button{width: 100% !important;}
+    .recaptcha iframe
+    {
+      /* width: 280px !important;
+      height: auto;
+      display: inline-block;
+      margin: auto;
+      display: block;
+      margin-left: 0px; */
+    }
+    .rc-anchor-logo-portrait{
+      margin: 10px 0 0 -18px!important;
+    }
+  .loginbtn button
+  {
+   width:100%!important;
+  }
+  .rc-anchor-light.rc-anchor-normal {
+    width: 169px !important;
+    background:green;
+}
+  .mainOuter
+  {
+   padding:0px!important;
+   margin-bottom:50px ;
+  }
+  .bgimage
+  {
+    /* height:300px; */
+  }
+  .backgroundimg
+  {
+    /* height: 638px; */
+  }
+  .barcode_div img
+  {
+    margin-left: -30px!important;
+  }
+  .MainInputDom
+  {
+   width:100%!important;
+   border: none;
+  }   
+  .recaptchadiv
+  {
+   /* margin-left:2%; */
+  }                      
+  }
+  
